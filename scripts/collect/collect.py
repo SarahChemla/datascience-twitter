@@ -17,10 +17,10 @@ import sys
 # Vecteurs d'accreditation a renseigner
 # apres creation dans le gestionnaire d'applications Twitter 
 # cf : https://apps.twitter.com/
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "UsT40XYFDMhBQpr8Sfr0phIjg"
+consumer_secret = "OiSijLmqFmpTnF4BuVPOm0TnpnrlyvBK1LB3eGZ9HopEfTKLJC"
+access_token = "57919498-6TWAH7iUDwvsvQDvJ2ecli5DvBhQ8H4Iu9iCWSLMJ"
+access_token_secret = "DDAeNgdyoxvI6ELbfUeSNs8flc0lm1ECKStu7Gwf9Hwf7"
 
 # Constantes
 maxTweets = 10000000   # Nombre de tweet max a recuperer
@@ -45,7 +45,7 @@ def main(argv):
     """
     tweetCount = 0
     search_query = None
-    max_id = -1L
+    max_id = -1
     output_dir = "."
 
     try:
